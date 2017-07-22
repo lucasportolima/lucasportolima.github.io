@@ -4,7 +4,7 @@
 html,
 body {
     height: 100%;
-    background: center no-repeat fixed url('../img/background.jpg');
+    background-color: #2b2b2b;
     background-size: cover;
     color: #444;
     font-family: 'Lato', sans-serif;
