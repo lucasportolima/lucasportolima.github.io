@@ -5,6 +5,7 @@
 .slices{
 	width: 100%;
 	height: 100vh;
+	margin-top: 1%;
 }
 
 #home{
@@ -13,20 +14,20 @@
 }
 
 #apresentacao{
-	left: 50%;
-	right: 50%;
+	height: 100%;
+	width: 100%;
 	position: absolute;
 	display: block;
 
 }
 
 #name{
-	font-size: 15%;
+	font-size: 4em;
 	color: white;
 }
 
 #cargo{
-	font-size: 15%;
+	font-size: 3vw;
 	color: white;	
 }
 
@@ -50,4 +51,69 @@
 	background-color: grey;
 }
 
-#{}
+.about-us {
+	background: #272727;
+	color: #FFF;
+}
+.about-us .big-intro {
+	text-align: right;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: normal;
+	margin-top: -15px;
+}
+.about-us .section-header .section-legend {
+	color: #FFF;
+}
+.about-us p {
+	text-align: left;
+	color: #939393;
+	font-size: 14px;
+	line-height: 25px;
+}
+.about-us .column {
+	margin-bottom: 78px;
+}
+.about-us .col-md-12.zerif-rtl-big-title .big-intro,
+.about-us .col-md-12.zerif_about_us_center p {
+	text-align: center;
+}
+/*--SKILLS --*/
+.skills {
+	text-align: left;
+	margin: 0 0 0 0;
+}
+.skills .skill {
+	display: block;
+	clear: both;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.skills .skill .skill-count {
+	display: inline-block;
+	height: 64px;
+	margin-top: 3px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 25px;
+}
+.skills li:last-child {
+	margin-bottom: 0;
+}
+.skills .skill .skill1,.skill2,.skill3,.skill4 {
+	font-size: 16px !important;
+}
+.skills .skill .section-legend {
+	text-transform: uppercase;
+	font-weight: 700;
+	clear: none;
+	width: auto;
+	float: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.skills .skill p {
+	line-height: 20px;
+	font-size: 14px;
+	color: #8f8f8f;
+}

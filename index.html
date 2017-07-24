@@ -1,527 +1,644 @@
-<!DOCTYPE html>
-<html lang="pt">
+    <!DOCTYPE html>
+    <html lang="pt">
 
-<head>
-    <title>Lucas Henrique Porto Lima</title>
+    <head>
+        <title>Lucas Henrique Porto Lima</title>
 
-    <meta charset="utf-8">
-    <meta name="description" content="Portfolio de Matheus Pessoa, desenvolvedor front-end">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#111">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta name="description" content="Portfolio de Matheus Pessoa, desenvolvedor front-end">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#111">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- animate css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" ></script>
-    <!-- font-awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Sweetalert2 -->
-    <link href="//cdn.jsdelivr.net/sweetalert2/6.0.1/sweetalert2.min.css" rel="stylesheet">
-    <!-- Estilos -->
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-</head>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- animate css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" ></script>
+        <!-- font-awesome -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Sweetalert2 -->
+        <link href="//cdn.jsdelivr.net/sweetalert2/6.0.1/sweetalert2.min.css" rel="stylesheet">
+        <!-- Estilos -->
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="alternate" type="application/rss+xml" title="Feed para Olivia Mattiazzo »" href="http://oliviamattiazzo-com-br.umbler.net/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Olivia Mattiazzo »" href="http://oliviamattiazzo-com-br.umbler.net/comments/feed/">
+        <script type="text/javascript">
+            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/oliviamattiazzo-com-br.umbler.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.9"}};
+            !function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+        </script><script src="http://oliviamattiazzo-com-br.umbler.net/wp-includes/js/wp-emoji-release.min.js?ver=4.5.9" type="text/javascript"></script>
+        <style type="text/css">
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="zerif_font-css" href="//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C400italic%7CMontserrat%3A400%2C700%7CHomemade+Apple&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="zerif_font_all-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C300italic%2C400italic%2C600italic%2C600%2C700%2C700italic%2C800%2C800italic&amp;ver=4.5.9" type="text/css" media="all">
+<link rel="stylesheet" id="zerif_bootstrap_style-css" href="http://oliviamattiazzo-com-br.umbler.net/wp-content/themes/zerif-lite/css/bootstrap.css?ver=4.5.9" type="text/css" media="all">
+<link rel="stylesheet" id="zerif_fontawesome-css" href="http://oliviamattiazzo-com-br.umbler.net/wp-content/themes/zerif-lite/css/font-awesome.min.css?ver=v1" type="text/css" media="all">
+<link rel="stylesheet" id="zerif_style-css" href="http://oliviamattiazzo-com-br.umbler.net/wp-content/themes/zerif-lite/style.css?ver=v1" type="text/css" media="all">
+<link rel="stylesheet" id="zerif_responsive_style-css" href="http://oliviamattiazzo-com-br.umbler.net/wp-content/themes/zerif-lite/css/responsive.css?ver=v1" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='zerif_ie_style-css'  href='http://oliviamattiazzo-com-br.umbler.net/wp-content/themes/zerif-lite/css/ie.css?ver=v1' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="http://oliviamattiazzo-com-br.umbler.net/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="http://oliviamattiazzo-com-br.umbler.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://oliviamattiazzo-com-br.umbler.net/wp-content/themes/zerif-lite/js/html5.js?ver=4.5.9'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="http://oliviamattiazzo-com-br.umbler.net/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://oliviamattiazzo-com-br.umbler.net/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://oliviamattiazzo-com-br.umbler.net/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.5.9">
+        <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+        <style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://oliviamattiazzo-com-br.umbler.net/wp-content/uploads/2016/09/code-1076536_1920.jpg'); background-repeat: no-repeat; background-position: top left; background-attachment: scroll; }
+</style>
+<link rel="icon" href="http://oliviamattiazzo-com-br.umbler.net/wp-content/uploads/2016/09/cropped-coding_blue-1-32x32.png" sizes="32x32">
+<link rel="icon" href="http://oliviamattiazzo-com-br.umbler.net/wp-content/uploads/2016/09/cropped-coding_blue-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="http://oliviamattiazzo-com-br.umbler.net/wp-content/uploads/2016/09/cropped-coding_blue-1-180x180.png">
+<meta name="msapplication-TileImage" content="http://oliviamattiazzo-com-br.umbler.net/wp-content/uploads/2016/09/cropped-coding_blue-1-270x270.png">
+    </head>
 
-<body>
-    
-    <header class="navbar navbar-trans navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand text-danger" href="#">Lucas Henrique Porto Lima</a>
+    <body>
+        
+        <header class="navbar navbar-trans navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand text-danger" href="#">Lucas Henrique Porto Lima</a>
+                </div>
+                <nav class="navbar-collapse collapse" id="navbar-collapsible" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#carreira">CARREIRA</a></li>
+                        <li><a href="#portfolio">PORTFÓLIO</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="navbar-collapse collapse" id="navbar-collapsible" role="navigation">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#sobre">SOBRE</a></li>
-                    <li><a href="#carreira">CARREIRA</a></li>
-                    <li><a href="#portfolio">PORTFÓLIO</a></li>
-                    <li><a href="#contato">CONTATO</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main id="god">
+        </header>
+        <main id="god">
 
-    <section class="container-fluid slices" id="home">
-        <div id="apresentacao">
-            <p id="name">LUCAS PORTO</p>
-            <p id="cargo">Analista Desenvolvedor</p>
-            <p id="foto-home">foto</p>
-        </div>
-    </section>
+        <section class="container-fluid slices" id="home">
+            <div id="apresentacao">
+                <p id="name" class="text-center">LUCAS PORTO</p>
+                <p id="cargo" class="text-center">Analista Desenvolvedor</p>
+                <p id="foto-home" class="text-center">foto</p>
+            </div>
+        </section>
 
-    <section class="container-fluid slices" id="sobre">
+        <section class="about-us container-fluid slices" id="aboutus">
+
+        
         <div class="container">
 
-            <h1 class="text-center">Sobre</h1>
+            <!-- SECTION HEADER -->
+
+            <div class="section-header">
+
+                <h2 class="white-text">Sobre mim</h2><div class="white-text section-legend">Fique à vontade para dar uma olhada nas minhas qualificações.</div>
+            </div><!-- / END SECTION HEADER -->
+
+            <!-- 3 COLUMNS OF ABOUT US-->
+
             <div class="row">
 
-                <div class="col-sm-12" id="sobreMim">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3">
-                            <h2>Sobre mim</h2>
-                            <br>
+                <!-- COLUMN 1 - BIG MESSAGE ABOUT THE COMPANY-->
+
+            <div class="col-lg-4 col-md-4 column zerif-rtl-big-title"><div class="big-intro" data-scrollreveal="enter left after 0s over 1s" data-sr-init="true" data-sr-complete="true">Nunca imaginei trabalhar com computadores, até que...</div></div><div class="col-lg-4 col-md-4 column zerif_about_us_center text_and_skills" data-scrollreveal="enter bottom after 0s over 1s" data-sr-init="true" data-sr-complete="true"><p>Minha jornada começou com um curso técnico em <b>Informática</b>, no <a href="http://www.cti.feb.unesp.br/">Colégio Técnico Industrial</a> da Unesp. O que eu imaginava ser um curso de hardware era, na verdade, de programação, e lá construí meus primeiros sistemas.<br>
+    Decidi continuar com a carreira através de um <b>Bacharelado em Sistemas de Informação</b>, também na <a href="http://www.bauru.unesp.br/">Universidade Estadual Paulista (UNESP)</a>. Ali desenvolvi mais habilidades e atualmente estou no quarto ano, desenvolvendo meu TCC, <a href="http://jogocalice.esy.es/public/home">Cálice</a>. Também tive a oportunidade de fazer um intercâmbio e estudei um ano na <a href="https://www.tcd.ie/">Trinity College</a>, em Dublin, Irlanda. Preferi focar nas matérias de <b>Negócios</b>, algo diferente da minha graduação aqui no Brasil.<br>
+    Minha experiência profissional conta com dois estágios (1 ano na empresa <a href="http://www.mstech.com.br/Main/Home/Index/">MStech</a> e 3 meses no <a href="http://kdeg.scss.tcd.ie/">Knowledge and Data Engineering Group</a>) e um ano como Desenvolvedora Web também na MStech.</p></div>      <div class="col-lg-4 col-md-4 column zerif-rtl-skills ">
+
+                <ul class="skills" data-scrollreveal="enter right after 0s over 1s" data-sr-init="true" data-sr-complete="true">
+
+                    <!-- SKILL ONE -->
+
+                    
+                    <li class="skill skill_1">
+
+                        <div class="skill-count"><div style="display: inline; width: 64px; height: 200px;"><canvas width="64" height="200"></canvas><input type="text" value="100" data-thickness=".2" class="skill1" tabindex="-1" readonly="readonly" style="width: 36px; height: 21px; position: absolute; vertical-align: middle; margin-top: 21px; margin-left: -50px; border: 0px; background: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; -webkit-appearance: none;"></div></div><div class="section-legend">Inglês</div><p>Tenho a pontuação 96 no TOEFL iBT e também morei um ano na Irlanda.</p>
+                    </li>
+
+                    
+                    <!-- SKILL TWO -->
+
+                    
+                    <li class="skill skill_2">
+
+                        <div class="skill-count"><div style="display: inline; width: 64px; height: 200px;"><canvas width="64" height="200"></canvas><input type="text" value="85" data-thickness=".2" class="skill2" tabindex="-1" readonly="readonly" style="width: 36px; height: 21px; position: absolute; vertical-align: middle; margin-top: 21px; margin-left: -50px; border: 0px; background: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; -webkit-appearance: none;"></div></div><div class="section-legend">PHP, Javascript e Bootstrap</div><p>Dentro desses, tenho experiência com Laravel, jQuery e Bootstrap.</p>
+                    </li>
+
+                    
+                    <!-- SKILL THREE -->
+                                    <li class="skill skill_3">
+
+                        <div class="skill-count"><div style="display: inline; width: 64px; height: 200px;"><canvas width="64" height="200"></canvas><input type="text" value="75" data-thickness=".2" class="skill3" tabindex="-1" readonly="readonly" style="width: 36px; height: 21px; position: absolute; vertical-align: middle; margin-top: 21px; margin-left: -50px; border: 0px; background: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; -webkit-appearance: none;"></div></div><div class="section-legend">Banco de dados</div><p>Experiente em SQL e já desenvolvi com SQL Server e MySQL.</p>
+                    </li>
+
+                    
+                    <!-- SKILL FOUR -->
+                    
+                    <li class="skill skill_4">
+
+                        <div class="skill-count"><div style="display: inline; width: 64px; height: 200px;"><canvas width="64" height="200"></canvas><input type="text" value="70" data-thickness=".2" class="skill4" tabindex="-1" readonly="readonly" style="width: 36px; height: 21px; position: absolute; vertical-align: middle; margin-top: 21px; margin-left: -50px; border: 0px; background: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; -webkit-appearance: none;"></div></div><div class="section-legend">Plataforma .net</div><p>Trabalhei utilizando majoritariamente C#, ASP, Team Foundation e Visual Studio.</p>
+                    </li>
+
+                    
+                </ul>
+
+            </div> <!-- / END SKILLS COLUMN-->
+
+            
+        </div> <!-- / END 3 COLUMNS OF ABOUT US-->
+
+        <!-- CLIENTS -->
+        
+        </div> <!-- / END CONTAINER -->
+
+        
+    </section>
+
+        <section class="container-fluid slices" id="sobre">
+            <div class="container">
+
+                <h1 class="text-center">Sobre</h1>
+                <div class="row">
+
+                    <div class="col-sm-12" id="sobreMim">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <h2>Sobre mim</h2>
+                                <br>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>Lucas Porto - Analista desenvolvedor, 21 anos de idade, nascido e crescido em Brasília-DF.</p>
+                                        <p>Apaixonado por tecnologia, filmes e séries.</p>
+                                        <p>Carreira embasada no desenvolvimento web com mais de 3 anos de experiência na área. Possuo notável conhecimento na linguagem Python e JavaScript. Busco sempre aperfeiçoar meus conhecimentos, sou um ótimo aprendiz e consigo trabalhar bem sobre pressão.</p>
+                                    </div>
+                                </div>
+                                <p class="text-center">
+                                    <img src="eu.jpeg" alt="Lucas Porto" class="img-responsive center-block avatar">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="graduacao">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2>Graduação</h2>
+                                <img src="img/iesb.png" alt="Logo iesb" class="img-responsive fatec">
+                                <p>Graduando no <a href="http://iesb.br/">Centro Universitário IESB</a>, localizada em Brasília.</p>
+                                <p>Cursando 7º periodo em <a href="http://iesb.br/graduacao/curso/ciencia-da-computacao">Ciência da Computação</a></p>
+    <!--                             <p>Graduação concluida em julho de 2017.</p>
+     -->                    </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="graduacao">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2>Graduação</h2>
+                                <img src="img/iesb.png" alt="Logo iesb" class="img-responsive fatec">
+                                <p>Graduando no <a href="http://iesb.br/">Centro Universitário IESB</a>, localizada em Brasília.</p>
+                                <p>Cursando 7º periodo em <a href="http://iesb.br/graduacao/curso/ciencia-da-computacao">Ciência da Computação</a></p>
+    <!--                             <p>Graduação concluida em julho de 2017.</p>
+     -->                    </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="interesses">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2>Interesses</h2>
+
+                                <p><span class="sublinhar">Sites responsivos</span>
+                                    <br> Criação de websites responsivos.
+                                </p>
+                                <p><span class="sublinhar">Transformação de layouts</span>
+                                    <br> Transformação de layouts em formato .psd para páginas web.
+                                </p>
+                                <p><span class="sublinhar">Design de Interfaces | UI & UX</span>
+                                    <br> Criação de interfaces que transmitam uma experiência agradável ao usuário.
+                                </p>
+                                <p><span class="sublinhar">Aplicativos Móveis</span>
+                                    <br> Desenvolvimento de aplicações híbridas para Android e iOS.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12" id="habilidades">
+                        <h2>Habilidades</h2>
+                        <p>Habilidades relacionadas a desenvolvimento web.</p>
+                        <div class="col-sm-6">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p>Lucas Porto - Analista desenvolvedor, 21 anos de idade, nascido e crescido em Brasília-DF.</p>
-                                    <p>Apaixonado por tecnologia, filmes e séries.</p>
-                                    <p>Carreira embasada no desenvolvimento web com mais de 3 anos de experiência na área. Possuo notável conhecimento na linguagem Python e JavaScript. Busco sempre aperfeiçoar meus conhecimentos, sou um ótimo aprendiz e consigo trabalhar bem sobre pressão.</p>
+                                    <h3>Sistemas Operacionais</h3>
+                                    <ul>
+                                        <li>Windows</li>
+                                        <li>Linux</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Linguagens</h3>
+                                    <ul>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>JavaScript</li>
+                                        <li>PHP</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Banco de dados</h3>
+                                    <ul>
+                                        <li>MySQL</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Versionamento</h3>
+                                    <ul>
+                                        <li>Git</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Automatizadores</h3>
+                                    <ul>
+                                        <li>Gulp</li>
+                                        <li>Grunt</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Arquitetura</h3>
+                                    <ul>
+                                        <li>REST / RESTful</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Pré-processadores</h3>
+                                    <ul>
+                                        <li>Sass</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <p class="text-center">
-                                <img src="eu.jpeg" alt="Lucas Porto" class="img-responsive center-block avatar">
-                            </p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-6" id="graduacao">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Graduação</h2>
-                            <img src="img/iesb.png" alt="Logo iesb" class="img-responsive fatec">
-                            <p>Graduando no <a href="http://iesb.br/">Centro Universitário IESB</a>, localizada em Brasília.</p>
-                            <p>Cursando 7º periodo em <a href="http://iesb.br/graduacao/curso/ciencia-da-computacao">Ciência da Computação</a></p>
-<!--                             <p>Graduação concluida em julho de 2017.</p>
- -->                    </div>
-                    </div>
-                </div>
-                <div class="col-sm-6" id="graduacao">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Graduação</h2>
-                            <img src="img/iesb.png" alt="Logo iesb" class="img-responsive fatec">
-                            <p>Graduando no <a href="http://iesb.br/">Centro Universitário IESB</a>, localizada em Brasília.</p>
-                            <p>Cursando 7º periodo em <a href="http://iesb.br/graduacao/curso/ciencia-da-computacao">Ciência da Computação</a></p>
-<!--                             <p>Graduação concluida em julho de 2017.</p>
- -->                    </div>
-                    </div>
-                </div>
-                <div class="col-sm-6" id="interesses">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Interesses</h2>
-
-                            <p><span class="sublinhar">Sites responsivos</span>
-                                <br> Criação de websites responsivos.
-                            </p>
-                            <p><span class="sublinhar">Transformação de layouts</span>
-                                <br> Transformação de layouts em formato .psd para páginas web.
-                            </p>
-                            <p><span class="sublinhar">Design de Interfaces | UI & UX</span>
-                                <br> Criação de interfaces que transmitam uma experiência agradável ao usuário.
-                            </p>
-                            <p><span class="sublinhar">Aplicativos Móveis</span>
-                                <br> Desenvolvimento de aplicações híbridas para Android e iOS.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12" id="habilidades">
-                    <h2>Habilidades</h2>
-                    <p>Habilidades relacionadas a desenvolvimento web.</p>
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h3>Sistemas Operacionais</h3>
-                                <ul>
-                                    <li>Windows</li>
-                                    <li>Linux</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Linguagens</h3>
-                                <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>JavaScript</li>
-                                    <li>PHP</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Banco de dados</h3>
-                                <ul>
-                                    <li>MySQL</li>
-                                    <li>MongoDB</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Versionamento</h3>
-                                <ul>
-                                    <li>Git</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Automatizadores</h3>
-                                <ul>
-                                    <li>Gulp</li>
-                                    <li>Grunt</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Arquitetura</h3>
-                                <ul>
-                                    <li>REST / RESTful</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Pré-processadores</h3>
-                                <ul>
-                                    <li>Sass</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h3>Frameworks e bibliotecas</h3>
-                                <ul>
-                                    <li>AngularJS</li>
-                                    <li>Bootstrap 3 e 4</li>
-                                    <li>Material Design Lite</li>
-                                    <li>Foundation</li>
-                                    <li>Materialize</li>
-                                    <li>Ionic</li>
-                                    <li>jQuery</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Servidor de programas</h3>
-                                <ul>
-                                    <li>Node.js</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>CMS</h3>
-                                <ul>
-                                    <li>WordPress</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Editores de texto</h3>
-                                <ul>
-                                    <li>Brackets</li>
-                                    <li>Sublime Text</li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12">
-                                <h3>Terminais</h3>
-                                <ul>
-                                    <li>Cmder</li>
-                                    <li>Powershell</li>
-                                    <li>Terminal</li>
-                                </ul>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Frameworks e bibliotecas</h3>
+                                    <ul>
+                                        <li>AngularJS</li>
+                                        <li>Bootstrap 3 e 4</li>
+                                        <li>Material Design Lite</li>
+                                        <li>Foundation</li>
+                                        <li>Materialize</li>
+                                        <li>Ionic</li>
+                                        <li>jQuery</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Servidor de programas</h3>
+                                    <ul>
+                                        <li>Node.js</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>CMS</h3>
+                                    <ul>
+                                        <li>WordPress</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Editores de texto</h3>
+                                    <ul>
+                                        <li>Brackets</li>
+                                        <li>Sublime Text</li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h3>Terminais</h3>
+                                    <ul>
+                                        <li>Cmder</li>
+                                        <li>Powershell</li>
+                                        <li>Terminal</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- fim container -->
-    </section>
+            <!-- fim container -->
+        </section>
 
-    <section class="container-fluid slices" id="carreira">
-        <div class="v-center">
-            <h1 class="text-center">Carreira</h1>
+        <section class="container-fluid slices" id="carreira">
+            <div class="v-center">
+                <h1 class="text-center">Carreira</h1>
 
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <div class="text-center">
-                        <a href="http://craion.com.br/">
-                            <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="img/carreira/logo-craion.jpg">
-                        </a>
-                        <h3 class="text-center">Craion</h3>
-                        <p class="text-center"><i class="fa fa-desktop"></i> Estágio em desenvolvimento web</p>
-                        <p class="text-center"><i class="fa fa-calendar"></i> 2014</p>
-                        <p class="text-center"><i class="fa fa-code"></i> Desenvolvimento e manutenção de websites, criação de wireframes, criação de UX e UI</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <div class="text-center">
-                        <a href="">
-                            <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="img/carreira/code.png">
-                        </a>
-                        <h3 class="text-center">Freelancer</h3>
-                        <p class="text-center"><i class="fa fa-desktop"></i> Desenvolvedor front-end</p>
-                        <p class="text-center"><i class="fa fa-calendar"></i> 2013 - atualmente</p>
-                        <p class="text-center"><i class="fa fa-code"></i> Desenvolvimento e manutenção de websites e apps, criação de wireframes e criação de sistemas</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <div class="text-center">
-                        <a href="http://www.grupomanga.com.br/">
-                            <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="img/carreira/logo-manga.png">
-                        </a>
-                        <h3 class="text-center">Agência Manga</h3>
-                        <p class="text-center"><i class="fa fa-desktop"></i> Desenvolvedor front-end júnior</p>
-                        <p class="text-center"><i class="fa fa-calendar"></i> 2017 - atualmente</p>
-                        <p class="text-center"><i class="fa fa-code"></i> Desenvolvimento e manutenção de websites</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid slices" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-1"></div>
-                <h1 class="text-center">Portfólio</h1>
-
-                <div class="col-sm-3">
-                    <div class="row">
-                        <h2>Aplicativos móveis</h2>
-                        <div class="media">
-                            <h4>Capítulo Hiram Abif</h4>
-                            <div class="media-left">
-                                <img src="img/portfolio/apps/logo-hiram.jpg" alt="Logo Capítulo Hiram Abif" class="arredondar-img">
-                            </div>
-                            <div class="media-body media-middle">
-                                <p>Aplicativo do Capítulo Hiram Abif da Ordem DeMolay. Criado com o intuito de divulgar o Capítulo e repassar conteúdo aos membros do mesmo.</p>
-                                <a href="https://github.com/matheusmpessoa/app-hiramabif" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Biografia Músicos</h4>
-                            <div class="media-body media-middle">
-                                <p>Aplicativo criado para obter informações da vida de carreira de músicos.</p>
-                                <a href="https://github.com/matheusmpessoa/app-biografiamusicos" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Tradução</h4>
-                            <div class="media-body media-middle">
-                                <p>Aplicativo de tradução e registro de palavras, criando assim um dicionário.</p>
-                                <a href="https://github.com/matheusmpessoa/app-traducao" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Fibonacci</h4>
-                            <div class="media-body media-middle">
-                                <p>Aplicativo criado para cálculo da sequência de Fibonacci.</p>
-                                <a href="https://github.com/matheusmpessoa/app-fibonacci" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3">
-                    <div class="row">
-                        <h2 class="text-center">Sistemas web</h2>
-                        <div class="media">
-                            <h4>matheusmpessoa.github.io</h4>
-                            <div class="media-body">
-                                <p>Repositório do meu portfólio.</p>
-                                <a href="https://github.com/matheusmpessoa/matheusmpessoa.github.io" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Routing AngularJS</h4>
-                            <div class="media-body media-middle">
-                                <p>Sistema de uma página controlada por AngularJS.</p>
-                                <a href="https://matheusmpessoa.github.io/routing-angularjs/#/" class="btn btn-danger btn-sm lato alinhar-esq">Ver aplicação</a>
-                                <br>
-                                <br>
-                                <a href="https://github.com/matheusmpessoa/routing-angularjs" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Contact List App</h4>
-                            <div class="media-body media-middle">
-                                <p>Sistema de agenda de contatos, criado com a MEAN stack.</p>
-                                <a href="https://github.com/matheusmpessoa/app-contactListApp-mean" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Gem Store</h4>
-                            <div class="media-left">
-                                <img src="img/portfolio/sistemas/gem.gif" alt="Logo Capítulo Hiram Abif" class="arredondar-img">
-                            </div>
-                            <div class="media-body media-middle">
-                                <p>E-commerce de Gems, navegação e efeitos criados para estudo utilizando AngularJS.</p>
-                                <a href="https://github.com/matheusmpessoa/gemstore-angularjs" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3">
-                    <div class="row">
-                        <h2 class="text-center">Cursos</h2>
-                        <div class="media">
-                            <h4>Udemy</h4>
-                            <div class="media-left">
-                                <img src="img/portfolio/cursos/udemy.png" alt="Logo canal Udemy" class="arredondar-img">
-                            </div>
-                            <div class="media-body media-middle">
-                                <p>Curso do canal CodeDamn.
-                                    <br>Cursos realizados: Entendendo e documentando REST/RESTful APIs, Angular2 com Bootstrap 4 e TypeScript, WooCommerce. </p>
-                                <a href="https://github.com/matheusmpessoa/cursos-udemy" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Rodrigo Branas</h4>
-                            <div class="media-left">
-                                <img src="img/portfolio/cursos/rodrigo-branas.jpg" alt="Logo canal Rodrigo Branas" class="arredondar-img">
-                            </div>
-                            <div class="media-body media-middle">
-                                <p>Curso do canal Rodrigo Branas.
-                                    <br>Cursos realizados: Gulp e Grunt.</p>
-                                <a href="https://github.com/matheusmpessoa/cursos-rodrigobranas" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>CodeDamn</h4>
-                            <div class="media-left">
-                                <img src="img/portfolio/cursos/codedamn.jpg" alt="Logo canal CodeDamn" class="arredondar-img">
-                            </div>
-                            <div class="media-body media-middle">
-                                <p>Curso do canal CodeDamn.
-                                    <br>Cursos realizados: AngularJS.</p>
-                                <a href="https://github.com/matheusmpessoa/cursos-codedamn" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fim cursos -->
-                </div>
-            </div>
-            <!--/row-->
-        </div>
-        <!--/container-->
-    </section>
-
-    <section class="container-fluid slices" id="contato">
-        <div class="container v-center">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="text-center">Entre em contato</h1>
-                </div>
-            </div>
-            <div class="row">
-                <br>
-                <div class="col-md-3 col-md-offset-5">
-                    <div>
-                        <h4>Telefone comercial</h4>
-                        <p>
-                            <i class="fa fa-phone fa-fw"></i><i class="fa fa-whatsapp fa-fw"></i> #cell
-                            <a class="btn btn-md btn-clipboardTel alinhar-centro" data-clipboard-text="#cell">
-                                <i class="fa fa-clipboard"></i>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="text-center">
+                            <a href="http://craion.com.br/">
+                                <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="img/carreira/logo-craion.jpg">
                             </a>
-                        </p>
+                            <h3 class="text-center">Craion</h3>
+                            <p class="text-center"><i class="fa fa-desktop"></i> Estágio em desenvolvimento web</p>
+                            <p class="text-center"><i class="fa fa-calendar"></i> 2014</p>
+                            <p class="text-center"><i class="fa fa-code"></i> Desenvolvimento e manutenção de websites, criação de wireframes, criação de UX e UI</p>
+                        </div>
                     </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="text-center">
+                            <a href="">
+                                <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="img/carreira/code.png">
+                            </a>
+                            <h3 class="text-center">Freelancer</h3>
+                            <p class="text-center"><i class="fa fa-desktop"></i> Desenvolvedor front-end</p>
+                            <p class="text-center"><i class="fa fa-calendar"></i> 2013 - atualmente</p>
+                            <p class="text-center"><i class="fa fa-code"></i> Desenvolvimento e manutenção de websites e apps, criação de wireframes e criação de sistemas</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="text-center">
+                            <a href="http://www.grupomanga.com.br/">
+                                <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="img/carreira/logo-manga.png">
+                            </a>
+                            <h3 class="text-center">Agência Manga</h3>
+                            <p class="text-center"><i class="fa fa-desktop"></i> Desenvolvedor front-end júnior</p>
+                            <p class="text-center"><i class="fa fa-calendar"></i> 2017 - atualmente</p>
+                            <p class="text-center"><i class="fa fa-code"></i> Desenvolvimento e manutenção de websites</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid slices" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <h1 class="text-center">Portfólio</h1>
+
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <h2>Aplicativos móveis</h2>
+                            <div class="media">
+                                <h4>Capítulo Hiram Abif</h4>
+                                <div class="media-left">
+                                    <img src="img/portfolio/apps/logo-hiram.jpg" alt="Logo Capítulo Hiram Abif" class="arredondar-img">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p>Aplicativo do Capítulo Hiram Abif da Ordem DeMolay. Criado com o intuito de divulgar o Capítulo e repassar conteúdo aos membros do mesmo.</p>
+                                    <a href="https://github.com/matheusmpessoa/app-hiramabif" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>Biografia Músicos</h4>
+                                <div class="media-body media-middle">
+                                    <p>Aplicativo criado para obter informações da vida de carreira de músicos.</p>
+                                    <a href="https://github.com/matheusmpessoa/app-biografiamusicos" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>Tradução</h4>
+                                <div class="media-body media-middle">
+                                    <p>Aplicativo de tradução e registro de palavras, criando assim um dicionário.</p>
+                                    <a href="https://github.com/matheusmpessoa/app-traducao" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>Fibonacci</h4>
+                                <div class="media-body media-middle">
+                                    <p>Aplicativo criado para cálculo da sequência de Fibonacci.</p>
+                                    <a href="https://github.com/matheusmpessoa/app-fibonacci" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <h2 class="text-center">Sistemas web</h2>
+                            <div class="media">
+                                <h4>matheusmpessoa.github.io</h4>
+                                <div class="media-body">
+                                    <p>Repositório do meu portfólio.</p>
+                                    <a href="https://github.com/matheusmpessoa/matheusmpessoa.github.io" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>Routing AngularJS</h4>
+                                <div class="media-body media-middle">
+                                    <p>Sistema de uma página controlada por AngularJS.</p>
+                                    <a href="https://matheusmpessoa.github.io/routing-angularjs/#/" class="btn btn-danger btn-sm lato alinhar-esq">Ver aplicação</a>
+                                    <br>
+                                    <br>
+                                    <a href="https://github.com/matheusmpessoa/routing-angularjs" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>Contact List App</h4>
+                                <div class="media-body media-middle">
+                                    <p>Sistema de agenda de contatos, criado com a MEAN stack.</p>
+                                    <a href="https://github.com/matheusmpessoa/app-contactListApp-mean" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>Gem Store</h4>
+                                <div class="media-left">
+                                    <img src="img/portfolio/sistemas/gem.gif" alt="Logo Capítulo Hiram Abif" class="arredondar-img">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p>E-commerce de Gems, navegação e efeitos criados para estudo utilizando AngularJS.</p>
+                                    <a href="https://github.com/matheusmpessoa/gemstore-angularjs" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <h2 class="text-center">Cursos</h2>
+                            <div class="media">
+                                <h4>Udemy</h4>
+                                <div class="media-left">
+                                    <img src="img/portfolio/cursos/udemy.png" alt="Logo canal Udemy" class="arredondar-img">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p>Curso do canal CodeDamn.
+                                        <br>Cursos realizados: Entendendo e documentando REST/RESTful APIs, Angular2 com Bootstrap 4 e TypeScript, WooCommerce. </p>
+                                    <a href="https://github.com/matheusmpessoa/cursos-udemy" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>Rodrigo Branas</h4>
+                                <div class="media-left">
+                                    <img src="img/portfolio/cursos/rodrigo-branas.jpg" alt="Logo canal Rodrigo Branas" class="arredondar-img">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p>Curso do canal Rodrigo Branas.
+                                        <br>Cursos realizados: Gulp e Grunt.</p>
+                                    <a href="https://github.com/matheusmpessoa/cursos-rodrigobranas" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media">
+                                <h4>CodeDamn</h4>
+                                <div class="media-left">
+                                    <img src="img/portfolio/cursos/codedamn.jpg" alt="Logo canal CodeDamn" class="arredondar-img">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p>Curso do canal CodeDamn.
+                                        <br>Cursos realizados: AngularJS.</p>
+                                    <a href="https://github.com/matheusmpessoa/cursos-codedamn" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fim cursos -->
+                    </div>
+                </div>
+                <!--/row-->
+            </div>
+            <!--/container-->
+        </section>
+
+        <section class="container-fluid slices" id="contato">
+            <div class="container v-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center">Entre em contato</h1>
+                    </div>
+                </div>
+                <div class="row">
                     <br>
-                    <div>
-                        <h4>E-mail</h4>
-                        <p>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a href="mailto:#email">#email</a>
-                            <a class="btn btn-md btn-clipboardEmail alinhar-centro" data-clipboard-text="#email">
-                                <i class="fa fa-clipboard"></i>
-                            </a>
-                        </p>
+                    <div class="col-md-3 col-md-offset-5">
+                        <div>
+                            <h4>Telefone comercial</h4>
+                            <p>
+                                <i class="fa fa-phone fa-fw"></i><i class="fa fa-whatsapp fa-fw"></i> #cell
+                                <a class="btn btn-md btn-clipboardTel alinhar-centro" data-clipboard-text="#cell">
+                                    <i class="fa fa-clipboard"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <br>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>
+                                <i class="fa fa-envelope fa-fw"></i>
+                                <a href="mailto:#email">#email</a>
+                                <a class="btn btn-md btn-clipboardEmail alinhar-centro" data-clipboard-text="#email">
+                                    <i class="fa fa-clipboard"></i>
+                                </a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="container-fluid slices" id="">
-        <div class="row">
-            <!--fontawesome icons-->
-            <div class="col-sm-1 col-sm-offset-4 col-xs-4 text-center">
-                <a href="https://github.com/matheusmpessoa" target="_blank">
-                    <img src="img/github.png">
-                </a>
-            </div>
-            <div class="col-sm-1 col-xs-4 text-center">
-                <a href="https://br.linkedin.com/in/matheusmpessoa" target="_blank">
-                    <img src="img/linkedin.png">
-                </a>
-            </div>
-            <div class="col-sm-1 col-xs-4 text-center">
-                <a href="https://www.facebook.com/matheusmpessoa" target="_blank">
-                    <img src="img/stack.png">
-                </a>
-            </div>
-            <div class="col-sm-1 col-xs-4 text-center">
-                <a href="https://www.instagram.com/matheusmpessoa/" target="_blank">
-                    <img src="img/insta.png">
-                </a>
-            </div>
-        </div>
-    </section>
-    </main>
-
-    <footer id="footer">
-        <div class="container">
+        <section class="container-fluid slices" id="">
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-3 column pull-left">
-                    <h4>Mapa do site</h4>
-                    <ul class="nav">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#graduacao">Graduação</a></li>
-                        <li><a href="#interesses">Interesses</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                        <li><a href="#portfolio">Portfólio</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
+                <!--fontawesome icons-->
+                <div class="col-sm-1 col-sm-offset-4 col-xs-4 text-center">
+                    <a href="https://github.com/matheusmpessoa" target="_blank">
+                        <img src="img/github.png">
+                    </a>
                 </div>
-                <div class="col-xs-6 col-md-3 column pull-left">
-                    <h4>Redes</h4>
-                    <ul class="nav">
-                        <li><a href="https://github.com/matheusmpessoa" target="_blank"><i class="fa fa-github fa-fw"></i>  GitHub</a></li>
-                        <li><a href="https://bitbucket.org/matheusmpessoa/" target="_blank"><i class="fa fa-bitbucket fa-fw"></i> Bitbucket</a></li>
-                        <li><a href="https://br.linkedin.com/in/matheusmpessoa" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i> LinkedIn</a></li>
-                        <li><a href="https://www.facebook.com/matheusmpessoa" target="_blank"><i class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
-                        <li><a href="https://www.instagram.com/matheusmpessoa/" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
-                        <li><a href="http://pt.stackoverflow.com/users/53788/matheus-pessoa" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i> Stack Overflow</a></li>
-                        <li><a href="http://codepen.io/matheusmpessoa/" target="_blank"><i class="fa fa-codepen fa-fw"></i> Codepen.io</a></li>
-                    </ul>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <a href="https://br.linkedin.com/in/matheusmpessoa" target="_blank">
+                        <img src="img/linkedin.png">
+                    </a>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <a href="https://www.facebook.com/matheusmpessoa" target="_blank">
+                        <img src="img/stack.png">
+                    </a>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <a href="https://www.instagram.com/matheusmpessoa/" target="_blank">
+                        <img src="img/insta.png">
+                    </a>
                 </div>
             </div>
-            <!--/row-->
-            <p class="text-right">© 2017</p>
+        </section>
+        </main>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-3 column pull-left">
+                        <h4>Mapa do site</h4>
+                        <ul class="nav">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#graduacao">Graduação</a></li>
+                            <li><a href="#interesses">Interesses</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#portfolio">Portfólio</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-md-3 column pull-left">
+                        <h4>Redes</h4>
+                        <ul class="nav">
+                            <li><a href="https://github.com/matheusmpessoa" target="_blank"><i class="fa fa-github fa-fw"></i>  GitHub</a></li>
+                            <li><a href="https://bitbucket.org/matheusmpessoa/" target="_blank"><i class="fa fa-bitbucket fa-fw"></i> Bitbucket</a></li>
+                            <li><a href="https://br.linkedin.com/in/matheusmpessoa" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i> LinkedIn</a></li>
+                            <li><a href="https://www.facebook.com/matheusmpessoa" target="_blank"><i class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+                            <li><a href="https://www.instagram.com/matheusmpessoa/" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+                            <li><a href="http://pt.stackoverflow.com/users/53788/matheus-pessoa" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i> Stack Overflow</a></li>
+                            <li><a href="http://codepen.io/matheusmpessoa/" target="_blank"><i class="fa fa-codepen fa-fw"></i> Codepen.io</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/row-->
+                <p class="text-right">© 2017</p>
+            </div>
+        </footer>
+
+        <div class="scroll-up">
+            <a href="#home"><i class="fa fa-angle-up"></i></a>
         </div>
-    </footer>
+        
 
-    <div class="scroll-up">
-        <a href="#home"><i class="fa fa-angle-up"></i></a>
-    </div>
-    
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Scripts -->
+        <script src="js/scripts.js"></script>
+        <!-- Clipboard -->
+        <script src="//cdn.jsdelivr.net/clipboard.js/1.5.5/clipboard.min.js"></script>
+        <!-- Sweetalert2 -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.0.1/sweetalert2.js"></script>
+    </body>
 
-    <!-- jQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Scripts -->
-    <script src="js/scripts.js"></script>
-    <!-- Clipboard -->
-    <script src="//cdn.jsdelivr.net/clipboard.js/1.5.5/clipboard.min.js"></script>
-    <!-- Sweetalert2 -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.0.1/sweetalert2.js"></script>
-</body>
-
-</html>
+    </html>
