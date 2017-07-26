@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+
 #god{
 	padding: 1%;
 }
@@ -36,84 +38,69 @@
 }
 
 #sobre{
-	background-color: white;
+	background-color: #cdcdcd;
 }
 
 #carreira{
 	background-color: blue;
 }
 
-#portifolio{
-	background-image: green;
+#portfolio{
+	background-color: green;
 }
 
 #contato{
 	background-color: grey;
 }
 
-.about-us {
-	background: #272727;
-	color: #FFF;
+#sobre #sobre-maior p{
+	color: red;
 }
-.about-us .big-intro {
-	text-align: right;
-	font-weight: 300;
-	font-size: 60px;
-	line-height: normal;
-	margin-top: -15px;
+
+#sobre #sobre-menor p{
+	color: blue;
 }
-.about-us .section-header .section-legend {
-	color: #FFF;
+
+#sobre #sobre-graficos p{
+	color: white;
 }
-.about-us p {
-	text-align: left;
-	color: #939393;
-	font-size: 14px;
-	line-height: 25px;
+
+
+
+h3 {
+  font-family: Raleway;
+  text-align: center;
+  font-size: 40px;
+  color: #363836;
 }
-.about-us .column {
-	margin-bottom: 78px;
+
+.oo {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #363836;
 }
-.about-us .col-md-12.zerif-rtl-big-title .big-intro,
-.about-us .col-md-12.zerif_about_us_center p {
-	text-align: center;
+
+.ball-academico {
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  background-color: #fefefe;
+  margin: 6px;
+  -webkit-animation: switch 2s infinite alternate;
+  -moz-animation: switch 2s infinite alternate;
+  -o-animation: switch 2s infinite alternate;
 }
-/*--SKILLS --*/
-.skills {
-	text-align: left;
-	margin: 0 0 0 0;
-}
-.skills .skill {
-	display: block;
-	clear: both;
-	margin-top: 0;
-	margin-bottom: 25px;
-}
-.skills .skill .skill-count {
-	display: inline-block;
-	height: 64px;
-	margin-top: 3px;
-	float: left;
-	margin-right: 15px;
-	margin-bottom: 25px;
-}
-.skills li:last-child {
-	margin-bottom: 0;
-}
-.skills .skill .skill1,.skill2,.skill3,.skill4 {
-	font-size: 16px !important;
-}
-.skills .skill .section-legend {
-	text-transform: uppercase;
-	font-weight: 700;
-	clear: none;
-	width: auto;
-	float: none;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.skills .skill p {
-	line-height: 20px;
-	font-size: 14px;
-	color: #8f8f8f;
+
+.ball-profissional {
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  background-color: #fefefe;
+  margin-top: 6px;
+  margin-left: 65px;
+  -webkit-animation: switch 2s infinite alternate;
+  -moz-animation: switch 2s infinite alternate;
+  -o-animation: switch 2s infinite alternate;
 }

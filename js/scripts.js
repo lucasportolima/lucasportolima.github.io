@@ -61,3 +61,17 @@ $('.btn-clipboardEmail').on('click', function () {
         'success'
     )
 });
+
+
+function move() {
+    if (document.getElementById('#ball').classList.contains('ball-academico') == true) {
+        document.getElementById('#ball').classList.remove('ball-academico');
+        document.getElementById('#ball').classList.add('ball-profissional');
+    }
+    else {
+        document.getElementById('#ball').classList.remove('ball-profissional');
+        document.getElementById('#ball').classList.add('ball-academico');
+    }
+    // body...
+}
+
