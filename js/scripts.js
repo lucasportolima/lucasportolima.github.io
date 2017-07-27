@@ -64,14 +64,54 @@ $('.btn-clipboardEmail').on('click', function () {
 
 
 function move() {
-    if (document.getElementById('#ball').classList.contains('ball-academico') == true) {
-        document.getElementById('#ball').classList.remove('ball-academico');
-        document.getElementById('#ball').classList.add('ball-profissional');
+    if (document.getElementById('ball').classList.contains('ball-academico') == true) {
+        document.getElementById('ball').classList.remove('ball-academico');
+        document.getElementById('ball').classList.add('ball-profissional');
+        document.getElementById('row-profissional').classList.remove('esconder');
+        document.getElementById('row-academico').classList.add('esconder');
     }
     else {
-        document.getElementById('#ball').classList.remove('ball-profissional');
-        document.getElementById('#ball').classList.add('ball-academico');
+        document.getElementById('ball').classList.remove('ball-profissional');
+        document.getElementById('ball').classList.add('ball-academico');
+        document.getElementById('row-academico').classList.remove('esconder');
+        document.getElementById('row-profissional').classList.add('esconder');
     }
     // body...
 }
 
+// function move2() {
+//     if (document.getElementById('ball').classList.contains('ball-academico') == true) {
+//         alert("aqui");
+//         document.getElementById('ball').classList.remove('ball-academico');
+//         document.getElementById('ball').classList.add('ball-profissional');
+//         document.getElementById('row-profissional').classList.remove('esconder');
+//         document.getElementById('row-academico').classList.add('esconder');
+//     }
+//     else {
+//         alert("aqui2");
+//         document.getElementById('ball').classList.remove('ball-profissional');
+//         document.getElementById('ball').classList.add('ball-academico');
+//         document.getElementById('row-academico').classList.remove('esconder');
+//         document.getElementById('row-profissional').classList.add('esconder');
+//     }
+//     // body...
+// }
+
+
+
+ $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true,
+    autoplay: true,
+});
