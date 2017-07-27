@@ -31,7 +31,7 @@
         
     </head>
 
-    <body>
+    <body onload="main();">
         
         <header class="navbar navbar-trans navbar-fixed-top">
             <div class="container">
@@ -161,51 +161,28 @@
 
         <section class="container-fluid slices" id="portfolio">
             <div class="container">
-  
-                  <div class="block-media">
-                    <div class="carousel-images slider-nav">
-                      <div>
-                        <img src="http://lorempicsum.com/simpsons/350/200/2" alt="1">
-                      </div>
-                      <div>
-                        <img src="http://lorempicsum.com/simpsons/350/200/3" alt="2">
-                      </div>
-                      <div>
-                        <img src="http://lorempicsum.com/simpsons/350/200/4" alt="3">
-                      </div>
+                <div class="col-sm-12">
+                    <div class="bs-example">
+                        <div id="myCarousel" class="carousel slide">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">Slide 1</div>
+                                <div class="item">Slide 2</div>
+                                <div class="item">Slide 3</div>
+                            </div>
+                            <a class="carousel-control left-flat" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right-flat" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+                        </div>
                     </div>
-                  </div><!-- /.block-media -->
-                  
-                  <div class="block-text">
-                    <div class="carousel-text slider-for">
-                      <div>
-                        <span class="title">
-                          Sed ut perspiciatis unde omnis iste natus error
-                        </span>
-                        <p class="headline">
-                          Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                        </p>
-                      </div>
-                      <div>
-                        <span class="title">
-                          Nemo enim ipsam
-                        </span>
-                        <p class="headline">
-                          Quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                        </p>
-                      </div>
-                      <div>
-                        <span class="title">
-                          Non provident, similique sunt in culpa
-                        </span>
-                        <p class="headline">
-                          Officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-                        </p>
-                      </div>
-                    </div>
-                  </div><!-- /.block-text -->
-                  
-                </div><!-- /.container -->
+                </div>                  
+            </div>
         </section>
 
         <section class="container-fluid slices" id="contato">
