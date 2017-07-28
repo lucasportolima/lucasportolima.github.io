@@ -124,49 +124,105 @@ h2 {
 @font-family-base: 'Roboto', sans-serif;
 
 
-.item {
-    color: #666;
-    background: #333;
-    height: 300px;
-    line-height: 300px;
-    /* Align the text vertically center. */
-    font-size: 52px;
-    text-align: center;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
 }
-.carousel {
-    margin-top: 20px;
-}
-.carousel-control {
-    top: 50%;
 
-    /* border 3px, size 40px */
-    border: 3px solid #fff;
-    -webkit-border-radius: 23px;
-    -moz-border-radius: 23px;
-    border-radius: 23px;
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
 
-    width: 40px;
-    height: 40px;
-    margin-top: -20px;
-    font-size: 60px;
-    font-weight: 100;
-    line-height: 25px;
-    color: #fff;
-    text-align: center;
-    opacity: .5;
-    filter: alpha(opacity=50);
+.item blockquote {
+    border-left: none; 
+    margin: 0;
 }
-.bs-example {
-    margin: 20px;
+
+.item blockquote img {
+    margin-bottom: 10px;
 }
-/* cancel background image gradient */
- .carousel-control.left-flat {
-    right: auto;
-    left: 15px;
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
 }
-/* override background image gradient */
- .carousel-control.right-flat {
-    right: 15px;
-    left: auto;
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
 }
