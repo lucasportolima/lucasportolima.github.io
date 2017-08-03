@@ -1,68 +1,93 @@
-    <!DOCTYPE html>
-    <html lang="pt">
+<!DOCTYPE html>
+<html lang="pt">
 
-    <head>
-        <title>Lucas Henrique Porto Lima</title>
+<head>
 
-        <meta charset="utf-8">
-        <meta name="description" content="Portfolio de Matheus Pessoa, desenvolvedor front-end">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#111">
-        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Lucas Henrique Porto Lima</title>
 
-        <!-- Bootstrap -->
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio de Matheus Pessoa, desenvolvedor front-end">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <!-- animate css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" ></script>
-        <!-- font-awesome -->
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <!-- Sweetalert2 -->
-        <link href="//cdn.jsdelivr.net/sweetalert2/6.0.1/sweetalert2.min.css" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <!-- Estilos -->
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
-        
-    </head>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <body onload="main();">
-        
-        <header class="navbar navbar-trans navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand text-danger" href="#">Lucas Henrique Porto Lima</a>
-                </div>
-                <nav class="navbar-collapse collapse" id="navbar-collapsible" role="navigation">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#sobre">SOBRE</a></li>
-                        <li><a href="#carreira">CARREIRA</a></li>
-                        <li><a href="#portfolio">PORTFÓLIO</a></li>
-                        <li><a href="#contato">CONTATO</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main id="god">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" ></script>
+    <!-- font-awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Sweetalert2 -->
+    <link href="//cdn.jsdelivr.net/sweetalert2/6.0.1/sweetalert2.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Estilos -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- js -->
+    <script src="js/classie.js"></script>
+    <script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 300,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+        window.onload = init();
+    </script>
+</head>
+
+
+
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top">
+    <div class="container clearfix">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-danger" href="#">Lucas Henrique Porto Lima</a>
+        </div>
+        <nav class="navbar-collapse collapse" id="navbar-collapsible" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#carreira">CARREIRA</a></li>
+                <li><a href="#portfolio">PORTFÓLIO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </div>
+</header><!-- /header -->
+
+<main id="god">
 
         <section class="container-fluid slices" id="home">
             <div class="container" id="apresentacao">
                 <!-- <p id="name" class="text-center">LUCAS PORTO</p>
                 <p id="cargo" class="text-center">Analista Desenvolvedor</p>
                 <p id="foto-home" class="text-center">foto</p> -->
+                
             </div>
         </section>
 
@@ -242,7 +267,7 @@
       </div>
   </div>
   <div class="row">
-      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+      <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xs-offset-3">
           <form id="contact-form" class="form" action="#" method="POST" role="form">
               <div class="form-group">
                   <label class="form-label" for="name">Your Name</label>
@@ -319,6 +344,6 @@
         <script src="//cdn.jsdelivr.net/clipboard.js/1.5.5/clipboard.min.js"></script>
         <!-- Sweetalert2 -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.0.1/sweetalert2.js"></script>
-    </body>
 
-    </html>
+</body>
+</html>

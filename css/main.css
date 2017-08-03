@@ -1,13 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:900);
 
+body{
+  font-family: Raleway !important;
+}
+
 #god{
 	padding: 1%;
+  margin-top: 100vh;
 }
 
 .slices{
 	width: 100%;
 	height: 100vh;
 	margin-top: 1%;
+  border-radius: 1%;
 }
 
 #home{
@@ -17,13 +23,13 @@
 
 #apresentacao{
 	height: 100%;
-	width: 100%;
+	width: 99%;
 	position: absolute;
 	display: block;
 
 }
 
-#name{
+#nome{
 	font-size: 4em;
 	color: white;
 }
@@ -275,4 +281,14 @@ textarea {
 .btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
   border-color: #5e9bfc;
   color: #5e9bfc;
+}
+
+.form-control {
+  background-color: gray;
+}
+
+/*CENTRALIZA O FORM*/
+
+.col-xs-offset-3 {
+    margin-left: 14%;
 }
