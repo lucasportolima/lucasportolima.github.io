@@ -42,9 +42,15 @@
                     header = document.querySelector("header");
                 if (distanceY > shrinkOn) {
                     classie.add(header,"smaller");
+
+                    //sobre main
+                    document.getElementById('god').style.marginTop = '56vh';
                 } else {
                     if (classie.has(header,"smaller")) {
                         classie.remove(header,"smaller");
+
+                        //desce main
+                        document.getElementById('god').style.marginTop = '150vh';
                     }
                 }
             });
@@ -77,19 +83,16 @@
                 <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
+        <div id="home">
+                <!-- <p id="name" class="text-center">LUCAS PORTO</p>
+                <p id="cargo" class="text-center">Analista Desenvolvedor</p>
+                <p id="foto-home" class="text-center">foto</p> -->
+        </div>
     </div>
 </header><!-- /header -->
 
 <main id="god">
 
-        <section class="container-fluid slices" id="home">
-            <div class="container" id="apresentacao">
-                <!-- <p id="name" class="text-center">LUCAS PORTO</p>
-                <p id="cargo" class="text-center">Analista Desenvolvedor</p>
-                <p id="foto-home" class="text-center">foto</p> -->
-                
-            </div>
-        </section>
 
         <section class="container-fluid slices" id="sobre">
             <div class="row">
@@ -187,75 +190,15 @@
 
         <section class="container-fluid slices" id="portfolio">
             <div class="container">
-                <div class="row">
-    <div class='col-md-offset-2 col-md-8 text-center'>
-    <h2>Responsive Quote Carousel BS3</h2>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-offset-2 col-md-8'>
-      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-        <!-- Bottom Carousel Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#quote-carousel" data-slide-to="1"></li>
-          <li data-target="#quote-carousel" data-slide-to="2"></li>
-        </ol>
-        
-        <!-- Carousel Slides / Quotes -->
-        <div class="carousel-inner">
-        
-          <!-- Quote 1 -->
-          <div class="item active">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="http://www.reactiongifs.com/r/overbite.gif" style="width: 100px;height:100px;">
-                  <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+              <div class="projeto-area">
+                <div class="projeto-imagem">
+                  <img src="img/iesb.png">
                 </div>
-                <div class="col-sm-9">
-                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-                  <small>Someone famous</small>
+                <div class="separador"></div>
+                <div class="projeto-texto">
+                  <strong>IESB</strong>
                 </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 2 -->
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                  <small>Someone famous</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 3 -->
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                  <small>Someone famous</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-        </div>
-        
-        <!-- Carousel Buttons Next/Prev -->
-        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-      </div>                          
-    </div>
-  </div>    
+              </div>                
             </div>
         </section>
 

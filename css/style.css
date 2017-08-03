@@ -48,7 +48,9 @@ header {
   header.smaller {
     margin: 0px;
     width: 100vw;
-    height: 75px; }
+    height: 5%; }
+  header.smaller nav {
+    margin-top: -2.5%;     }
     header.smaller h1#logo {
       width: 150px;
       height: 75px;

@@ -49,6 +49,7 @@ a.text-danger {
     background-color: #2b2b2b;
     color: #cdcdcd;
     border-width: 0;
+    border-radius: 1%;
 }
 
 .navbar-trans .navbar-brand,
