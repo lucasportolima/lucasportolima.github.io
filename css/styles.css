@@ -1,0 +1,304 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400);
+
+html,
+body {
+    height: 100%;
+    background-color: #1a1a1a;
+    background-size: cover;
+    color: #444;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ------------------
+NAV
+------------------ */
+.btn,
+.well,
+.panel {
+    border-radius: 0;
+}
+
+.btn-danger {
+    background-color: #f44d3c;
+}
+
+.text-danger,
+a.text-danger {
+    color: #f44d3c;
+}
+
+.btn-huge {
+    padding: 17px 22px;
+    font-size: 22px;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.bitter {
+    font-family: 'Bitter', serif;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.navbar-trans {
+    background-color: #2b2b2b;
+    color: #cdcdcd;
+    border-width: 0;
+    border-radius: 1%;
+}
+
+.navbar-trans .navbar-brand,
+.navbar-trans >.container-fluid .navbar-brand {
+    padding: 14px;
+    color: #f44d3c;
+}
+
+.navbar-trans li>a:focus,
+.navbar-trans li.active {
+    background-color: #f44d3c;
+    color: #333;
+}
+
+.navbar-trans li>a:hover {
+    background-color: #f44d3c;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.navbar-trans a {
+    color: #cdcdcd;
+    letter-spacing: 1px;
+}
+
+.navbar-trans .form-control:focus {
+    border-color: #eee;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+}
+
+/* ------------------
+SCROLL
+------------------ */
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    display: block;
+    padding: 7px;
+    text-align: center;
+    z-index: -1
+}
+
+.scroll-up {
+    position: fixed;
+    display: none;
+    z-index: 999;
+    bottom: 2em;
+    right: 2em;
+}
+
+.scroll-up a {
+    background-color: rgba(135, 135, 135, 0.5);
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+/* ------------------
+SECTION
+------------------ */
+section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* ------------------
+HOME
+------------------ */
+.home,
+.portfolio {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: 'Bitter', serif;
+}
+
+.avatar {
+    border-radius: 150px;
+}
+
+/* ------------------
+SOBRE
+------------------ */
+.sobre {
+    background-color: #fff;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+.sobre img {
+    padding-right: 10px;
+}
+
+.fatec {
+    width: 180px;
+    position: relative;
+    float: left;
+}
+
+/* ------------------
+CARREIRA
+------------------ */
+.carreira{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.carreira h1{
+    color: #f44d3c;
+}
+
+/* ------------------
+PORTFOLIO
+------------------ */
+.portfolio {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.portfolio h1 {
+    color: #f44d3c;
+}
+
+.portfolio h4 {
+    text-decoration: underline;
+}
+
+/* ------------------
+CONTATO
+------------------ */
+.contato {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contato h1 {
+    color: #f44d3c;
+}
+
+.contato a {
+    color: #fff;
+}
+
+.contato a:hover {
+    color: #f44d3c;
+}
+
+/* ------------------
+REDES SOCIAIS
+------------------ */
+.redesSociais {
+    background-color: #f44d3c;
+    color: #000;
+    min-height: 130px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.redesSociais a {
+    color: #2b2b2b;
+}
+
+.redesSociais a:hover {
+    color: #ddd;
+}
+
+/* ------------------
+FOOTER
+------------------ */
+footer {
+    background-color: #2b2b2b;
+    color: #ddd;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer .nav>li>a {
+    padding: 3px;
+    color: #f44d3c;
+}
+
+footer .nav>li>a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* ------------------
+ESTILIZAÇÕES GERAIS
+------------------ */
+a {
+    color: #888;
+}
+
+a:hover {
+    color: #111;
+}
+.sublinhar {
+    text-decoration: underline;
+}
+
+.alinhar-esq {
+    float: left;
+}
+
+.alinhar-dir {
+    float: right;
+}
+
+.alinhar-centro {
+    align-content: center;
+}
+
+.arredondar-img {
+    border-radius: 10px;
+}
+
+/* ------------------
+MEDIA QUERY
+------------------ */
+@media (min-width:766px) {
+    h1 {
+        font-size: 68px;
+    }
+
+    .v-center {
+        height: 50%;
+        overflow: visible;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+}
