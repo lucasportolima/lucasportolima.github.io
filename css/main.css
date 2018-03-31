@@ -45,10 +45,38 @@ nav,section{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:1
 }
 
 .cbp-spmenu-vertical1 {
-    width: 330px;
+    width: 15vw;
     height: 100%;
     top: 0;
     z-index: 1000;
     -webkit-transition: all .5s;
     transition: all .5s;
+}
+
+#nav-contato{
+	margin-top: 25vh;
+}
+
+nav .hi-icon {
+    background: white;
+}
+
+nav .phone-txt {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin-left: 1vw;
+}
+
+nav .hi-icon-wrap{
+	margin-top: 5vh;
+}
+
+
+nav .hi-icon-effect-1 .hi-icon {
+    background: white;
+    -webkit-transition: background .2s,color .2s;
+    -moz-transition: background .2s,color .2s;
+    -o-transition: background .2s,color .2s;
+    transition: background .2s,color .2s;
 }
