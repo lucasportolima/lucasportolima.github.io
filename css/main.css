@@ -45,7 +45,7 @@ nav,section{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:1
 }
 
 .cbp-spmenu-vertical1 {
-    width: 15vw;
+    width: 240px;
     height: 100%;
     top: 0;
     z-index: 1000;
@@ -57,26 +57,25 @@ nav,section{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:1
 	margin-top: 25vh;
 }
 
-nav .hi-icon {
-    background: white;
-}
-
-nav .phone-txt {
-    font-size: 18px;
-    line-height: 28px;
+.content3_heading {
+    width: auto;
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 700;
     color: #fff;
-    margin-left: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgba(0,0,0,.5);
+    padding: 40px 20px 20px;
+    text-align: center;
+    margin-top: 141px;
+    margin-bottom: 80px;
 }
 
-nav .hi-icon-wrap{
-	margin-top: 5vh;
+#sobre-mim{
+	border-radius: 1%;
 }
 
-
-nav .hi-icon-effect-1 .hi-icon {
-    background: white;
-    -webkit-transition: background .2s,color .2s;
-    -moz-transition: background .2s,color .2s;
-    -o-transition: background .2s,color .2s;
-    transition: background .2s,color .2s;
+#sobre-mim img{
+	border-radius: 2%;
 }
