@@ -45,7 +45,7 @@ nav,section{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:1
 }
 
 .cbp-spmenu-vertical1 {
-    width: 240px;
+    width: 270px;
     height: 100%;
     top: 0;
     z-index: 1000;
@@ -78,4 +78,26 @@ nav,section{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:1
 
 #sobre-mim img{
 	border-radius: 2%;
+}
+
+.about-text1 p {
+    color: #f2f2f2 !important;
+    line-height: 1.9;
+    margin: 20px 0;
+    width: 43vh;
+}
+
+.img-responsive {
+    display: block;
+    height: 40vh;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.project-overlay h3{
+	margin-top: -15%;
+}
+
+.project-overlay span{
+	margin-top: -15%;
 }
